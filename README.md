@@ -1,12 +1,12 @@
 # CI2025_lab1
 
-Knapsack Solver
+**Knapsack Solver**
 
 This solver uses a Hill Climbing method, which is a simple search strategy that tries to find the best solution by making small, locally optimal improvements.
 
-The Process
+**The Process**
 
-Start Feasible: The algorithm first creates an empty solution and uses a Repair Tool (make_valid) to fill it with items until it becomes a legal starting point (no knapsack is overloaded, and no item is in two places).
+The algorithm first creates an empty solution and uses a Repair Tool (make_valid) to fill it with items until it becomes a legal starting point (no knapsack is overloaded, and no item is in two places).
 
 Tweak and Test: In each step, the solver takes the current best solution and creates a neighbor using the Tweak Tool (tweak). This tool works by randomly trying to add one unassigned item to an available knapsack.
 
